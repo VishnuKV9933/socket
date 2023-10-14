@@ -1,10 +1,9 @@
 
-
 const io = require('socket.io')(8900,{
     cors:{
-        origin:'http://localhost:3000'
+        origin:'https://master.dmbqq1mmj9oke.amplifyapp.com'
     },
-    
+
 })
 let users=[]
 const addUser=(userId,socketId) => {
